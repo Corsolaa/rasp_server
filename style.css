@@ -1,0 +1,133 @@
+/* All page attributes */
+:root {
+    --text-color: white;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color-scheme: dark;
+}
+
+body {
+    min-height: 100vh;
+    color: var(--text-color);
+    font-family: Sans-serif, serif;
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: url("./website-background.png") no-repeat center;
+    background-size: cover;
+    color: white;
+}
+
+/* Puts the content whit this class in the center */
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* All the header attributes */
+.header {
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    font-size: 5rem;
+}
+
+.header p {
+    font-size: 2rem;
+}
+
+.content {
+    width: 1000px;
+}
+
+@media screen and (max-width: 1100px) {
+    .content {
+        width: 100%;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+
+.table {
+    width: 100%;
+    font-size: 2rem;
+    display: flex;
+}
+
+.content {
+    text-align: center;
+}
+
+.link {
+    text-align: right;
+}
+
+.link a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.table th {
+    text-align: left;
+}
+.table tbody {
+    width: 1000px;
+}
+
+.border-bottom {
+    border-bottom: white 1px solid;
+}
+
+.table tbody tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.beta {
+    font-weight: bold;
+    color: red;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+.progress {
+    font-weight: bold;
+    color: blue;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+@media screen and (max-width: 800px) {
+    .header h1 {
+        font-size: 3rem;
+    }
+
+    .header p {
+        font-size: 1.2rem;
+    }
+
+    .table {
+        font-size: 1.2rem;
+    }
+}
