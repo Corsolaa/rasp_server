@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interieur Blog - Villa Arena</title>
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="content">
+    <div class="header">
+        <h1>Wat is jouw woonstijl? <br class="header_break" style="display: none">Doe de test.</h1>
+        <p>Een woonstijl kan een leidraad zijn bij de inrichting van je huis. Het is makkelijk om keuzes te maken bij de
+            nieuwe inrichting van jouw woning of om je huidige inrichting aan te vullen. Weet je niet of het
+            scandinavisch, modern, klassiek of industrieel is? Wij helpen je met het ontdekken van jouw woonstijl.</p>
+        <p>
+            Ook voor het maken van een <a
+                href="https://www.villaarena.nl/interieurblog/zelf-een-moodboard-maken-zo-doe-je-dat/">moodboard</a> en
+            wanneer je een <a href="https://www.villaarena.nl/interieuradvies/">gratis interieuradvies</a> wilt, is het
+            handig om de
+            woonstijlen test te doen. Het zorgt voor duidelijkheid en geeft een goede richting om mee te starten.
+        </p>
+    </div>
+    <div class="quiz_sector">
+        <div class="quiz_header">
+            <h2><a class="quiz_digit text-orange">Vraag 1:</a> <a class="quiz_question">Welke ruimte past het beste bij
+                jou? (Klik op de foto van je keuze)</a></h2>
+            <div class="lower-text quiz_digit2">Vraag 1 van 10</div>
+        </div>
+        <div class="img_loader">
+            <span class="loader"><span class="loader-inner"></span></span>
+        </div>
+        <div class="quiz_img">
+            <img src="./images/img-white.png" alt="quiz-img-1" onclick="imageClick('1');">
+            <img src="./images/img-white.png" alt="quiz-img-2" onclick="imageClick('2');">
+            <img class="top_right" src="./images/img-white.png" alt="quiz-img-3" onclick="imageClick('3');">
+            <img src="./images/img-white.png" alt="quiz-img-4" onclick="imageClick('4');">
+            <img src="./images/img-white.png" alt="quiz-img-5" onclick="imageClick('5');">
+            <img src="./images/img-white.png" alt="quiz-img-6" onclick="imageClick('6');">
+        </div>
+    </div>
+    <div class="quiz_contact">
+        <h1>Vraag je moodboard aan!</h1>
+        <h2>Op basis van jouw keuzes komen wij uit op:</h2>
+        <p class="quiz_result"></p>
+        <p>Graag alle velden invullen.</p>
+        <form class="quiz_form">
+            <label for="email">E-mailadres</label><br>
+            <input type="text" id="email" name="email" value=""><br>
+            <input type="checkbox" id="nieuwsbrief" name="nieuwsbrief">
+            <label for="nieuwsbrief">Wil je graag op de hoogte blijven van het laatste nieuws op woon en
+                interieurgebied, <br>
+                &nbsp &nbsp &nbsp leuke en praktische tips ontvangen om je huis te stylen en altijd als eerste
+                profiteren<br>
+                &nbsp &nbsp &nbsp van aantrekkelijke aanbiedingen? Schrijf je dan in voor de Villa Arena
+                nieuwsbrief.</label><br>
+            <input class="submit" type="submit" value="VERSTUUR">
+        </form>
+
+    </div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>

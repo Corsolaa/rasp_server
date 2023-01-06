@@ -1,0 +1,1098 @@
+[
+  {
+    "name": "Alvanor",
+    "role": [
+      "Support",
+      "Mage"
+    ],
+    "faction": "Way of Nature",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Magic"
+    ],
+    "arti_team_buff": "Magic attack",
+    "skins": {
+      "Default": "Intelligence",
+      "Spring": "Magic attack",
+      "Lunar": "Armor"
+    }
+  },
+  {
+    "name": "Amira",
+    "role": [
+      "Mage",
+      "Support"
+    ],
+    "faction": "Way of Mystery",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Magic"
+    ],
+    "arti_team_buff": "Magic defense",
+    "skins": {
+      "Default": "Intelligence"
+    }
+  },
+  {
+    "name": "Andvari",
+    "role": [
+      "Support",
+      "Control"
+    ],
+    "faction": "Way of Mystery",
+    "main_stat": "Strength",
+    "attack_type": [
+      "Physical"
+    ],
+    "arti_team_buff": "Armor",
+    "skins": {
+      "Default": "Strength",
+      "Winter": "Physical attack",
+      "Lunar": "Magic defense"
+    }
+  },
+  {
+    "name": "Arachne",
+    "role": [
+      "Warrior",
+      "Control"
+    ],
+    "faction": "Way of Progress",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Magic",
+      "Pure"
+    ],
+    "arti_team_buff": "Armor",
+    "skins": {
+      "Default": "Intelligence",
+      "Mechanical": "Magic attack",
+      "Romantic": "Magic attack",
+      "Winter": "Armor",
+      "Spring": "Health"
+    }
+  },
+  {
+    "name": "Artemis",
+    "role": [
+      "Marksman"
+    ],
+    "faction": "Way of Honor",
+    "main_stat": "Agility",
+    "attack_type": [
+      "Physical"
+    ],
+    "arti_team_buff": "Physical attack",
+    "skins": {
+      "Default": "Agility",
+      "Angel": "Crit hit chance",
+      "Devil": "Physical attack",
+      "Spring": "Health"
+    }
+  },
+  {
+    "name": "Astaroth",
+    "role": [
+      "Tank",
+      "Support"
+    ],
+    "faction": "Way of Chaos",
+    "main_stat": "Strength",
+    "attack_type": [
+      "Physical"
+    ],
+    "arti_team_buff": "Armor",
+    "skins": {
+      "Default": "Strength",
+      "Devil": "Magic attack",
+      "Barbarian": "Armor",
+      "Lunar": "Magic defense"
+    }
+  },
+  {
+    "name": "Astrid and Lucas",
+    "role": [
+      "Warrior",
+      "Marksman"
+    ],
+    "faction": "Way of Progress",
+    "main_stat": "Agility",
+    "attack_type": [
+      "Physical"
+    ],
+    "arti_team_buff": "Armor",
+    "skins": {
+      "Default": "Agility",
+      "Devil": "Physical attack",
+      "Spring": "Physical attack",
+      "Romantic": "Armor penetration",
+      "Solar": "Armor"
+    }
+  },
+  {
+    "name": "Aurora",
+    "role": [
+      "Tank"
+    ],
+    "faction": "Way of Nature",
+    "main_stat": "Strength",
+    "attack_type": [
+      "Magic"
+    ],
+    "arti_team_buff": "Dodge",
+    "skins": {
+      "Default": "Strength",
+      "Nordic": "Dodge",
+      "Spring": "Health",
+      "Devil": "Armor",
+      "Romantic": "Magic penetration"
+    }
+  },
+  {
+    "name": "Celeste",
+    "role": [
+      "Healer",
+      "Control"
+    ],
+    "faction": "Way of Mystery",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Magic"
+    ],
+    "arti_team_buff": "Magic attack",
+    "skins": {
+      "Default": "Intelligence",
+      "Winter": "Magic attack",
+      "Spring": "Magic defense",
+      "Romantic": "Armor"
+    }
+  },
+  {
+    "name": "Chabba",
+    "role": [
+      "Tank",
+      "Control"
+    ],
+    "faction": "Way of Nature",
+    "main_stat": "Strength",
+    "attack_type": [
+      "Physical",
+      "Pure"
+    ],
+    "arti_team_buff": "Armor",
+    "skins": {
+      "Default": "Strength",
+      "Devil": "Physical attack",
+      "Winter": "Armor",
+      "Masquerade": "Health",
+      "Lunar": "Magic defense"
+    }
+  },
+  {
+    "name": "Cleaver",
+    "role": [
+      "Tank",
+      "Control"
+    ],
+    "faction": "Way of Chaos",
+    "main_stat": "Strength",
+    "attack_type": [
+      "Physical",
+      "Pure"
+    ],
+    "arti_team_buff": "Armor",
+    "skins": {
+      "Default": "Strength",
+      "Champion&#039;s": "Physical attack",
+      "Barbarian": "Health",
+      "Masquerade": "Armor"
+    }
+  },
+  {
+    "name": "Cornelius",
+    "role": [
+      "Mage",
+      "Support"
+    ],
+    "faction": "Way of Honor",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Physical"
+    ],
+    "arti_team_buff": "Magic defense",
+    "skins": {
+      "Default": "Intelligence",
+      "Stellar": "Health",
+      "Angel": "Magic attack",
+      "Masquerade": "Magic defense"
+    }
+  },
+  {
+    "name": "Corvus",
+    "role": [
+      "Tank"
+    ],
+    "faction": "Way of Eternity",
+    "main_stat": "Strength",
+    "attack_type": [
+      "Physical",
+      "Pure"
+    ],
+    "arti_team_buff": "Armor",
+    "skins": {
+      "Default": "Strength",
+      "Devil": "Physical attack"
+    }
+  },
+  {
+    "name": "Dante",
+    "role": [
+      "Marksman"
+    ],
+    "faction": "Way of Eternity",
+    "main_stat": "Agility",
+    "attack_type": [
+      "Physical"
+    ],
+    "arti_team_buff": "Dodge",
+    "skins": {
+      "Default": "Agility",
+      "Romantic": "Dodge",
+      "Solar": "Physical attack",
+      "Winter": "Health"
+    }
+  },
+  {
+    "name": "Daredevil",
+    "role": [
+      "Marksman"
+    ],
+    "faction": "Way of Progress",
+    "main_stat": "Agility",
+    "attack_type": [
+      "Physical"
+    ],
+    "arti_team_buff": "Physical attack",
+    "skins": {
+      "Default": "Agility",
+      "Rowdy": "Crit hit chance",
+      "Romantic": "Health",
+      "Spring": "Physical attack"
+    }
+  },
+  {
+    "name": "Dark Star",
+    "role": [
+      "Marksman",
+      "Control"
+    ],
+    "faction": "Way of Nature",
+    "main_stat": "Agility",
+    "attack_type": [
+      "Physical"
+    ],
+    "arti_team_buff": "Physical attack",
+    "skins": {
+      "Default": "Agility",
+      "Nordic": "Dodge",
+      "Spring": "Physical attack",
+      "Lunar": "Armor penetration",
+      "Romantic": "Magic defense"
+    }
+  },
+  {
+    "name": "Dorian",
+    "role": [
+      "Support"
+    ],
+    "faction": "Way of Chaos",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Magic"
+    ],
+    "arti_team_buff": "Physical attack",
+    "skins": {
+      "Default": "Intelligence",
+      "Champion&#039;s": "Magic attack",
+      "Romantic": "Health",
+      "Masquerade": "Armor",
+      "Winter": "Magic defense"
+    }
+  },
+  {
+    "name": "Elmir",
+    "role": [
+      "Warrior",
+      "Marksman"
+    ],
+    "faction": "Way of Nature",
+    "main_stat": "Agility",
+    "attack_type": [
+      "Physical"
+    ],
+    "arti_team_buff": "Armor penetration",
+    "skins": {
+      "Default": "Agility",
+      "Winter": "Physical attack",
+      "Barbarian": "Dodge",
+      "Devil": "Armor penetration"
+    }
+  },
+  {
+    "name": "Faceless",
+    "role": [
+      "Mage",
+      "Control"
+    ],
+    "faction": "Way of Eternity",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Magic"
+    ],
+    "arti_team_buff": "Magic penetration",
+    "skins": {
+      "Default": "Intelligence",
+      "Stellar": "Magic attack",
+      "Masquerade": "Health",
+      "Solar": "Magic defense"
+    }
+  },
+  {
+    "name": "Fafnir",
+    "role": [
+      "Support"
+    ],
+    "faction": "Way of Honor",
+    "main_stat": "Strength",
+    "attack_type": [
+      "Physical"
+    ],
+    "arti_team_buff": "Physical attack",
+    "skins": {
+      "Default": "Strength"
+    }
+  },
+  {
+    "name": "Fox",
+    "role": [
+      "Marksman"
+    ],
+    "faction": "Way of Progress",
+    "main_stat": "Agility",
+    "attack_type": [
+      "Physical"
+    ],
+    "arti_team_buff": "Armor penetration",
+    "skins": {
+      "Default": "Agility",
+      "Winter": "Physical attack",
+      "Spring": "Health",
+      "Lunar": "Armor penetration"
+    }
+  },
+  {
+    "name": "Galahad",
+    "role": [
+      "Tank"
+    ],
+    "faction": "Way of Honor",
+    "main_stat": "Strength",
+    "attack_type": [
+      "Physical",
+      "Pure"
+    ],
+    "arti_team_buff": "Physical attack",
+    "skins": {
+      "Default": "Strength",
+      "Angel": "Physical attack",
+      "Champion&#039;s": "Health",
+      "Romantic": "Armor"
+    }
+  },
+  {
+    "name": "Ginger",
+    "role": [
+      "Marksman"
+    ],
+    "faction": "Way of Progress",
+    "main_stat": "Agility",
+    "attack_type": [
+      "Physical"
+    ],
+    "arti_team_buff": "Physical attack",
+    "skins": {
+      "Default": "Agility",
+      "Devil": "Physical attack",
+      "Champion&#039;s": "Physical attack",
+      "Spring": "Armor penetration",
+      "Solar": "Magic defense"
+    }
+  },
+  {
+    "name": "Heidi",
+    "role": [
+      "Mage"
+    ],
+    "faction": "Way of Mystery",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Pure"
+    ],
+    "arti_team_buff": "Dodge",
+    "skins": {
+      "Default": "Intelligence",
+      "Winter": "Dodge",
+      "Lunar": "Magic attack",
+      "Devil": "Health"
+    }
+  },
+  {
+    "name": "Helios",
+    "role": [
+      "Mage",
+      "Support"
+    ],
+    "faction": "Way of Honor",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Magic"
+    ],
+    "arti_team_buff": "Armor",
+    "skins": {
+      "Default": "Intelligence",
+      "Champion&#039;s": "Magic attack",
+      "Devil": "Health",
+      "Romantic": "Magic attack",
+      "Masquerade": "Magic defense"
+    }
+  },
+  {
+    "name": "Iris",
+    "role": [
+      "Mage"
+    ],
+    "faction": "Way of Eternity",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Magic"
+    ],
+    "arti_team_buff": "Magic attack",
+    "skins": {
+      "Default": "Intelligence",
+      "Cybernetic": "Armor"
+    }
+  },
+  {
+    "name": "Isaac",
+    "role": [
+      "Support"
+    ],
+    "faction": "Way of Progress",
+    "main_stat": "Agility",
+    "attack_type": [
+      "Physical"
+    ],
+    "arti_team_buff": "Magic defense",
+    "skins": {
+      "Default": "Agility",
+      "Lunar": "Physical attack"
+    }
+  },
+  {
+    "name": "Ishmael",
+    "role": [
+      "Warrior"
+    ],
+    "faction": "Way of Honor",
+    "main_stat": "Agility",
+    "attack_type": [
+      "Physical"
+    ],
+    "arti_team_buff": "Crit hit chance",
+    "skins": {
+      "Default": "Agility",
+      "Romantic": "Crit hit chance",
+      "Champion&#039;s": "Physical attack",
+      "Masquerade": "Health",
+      "Solar": "Physical attack"
+    }
+  },
+  {
+    "name": "Jet",
+    "role": [
+      "Support",
+      "Healer"
+    ],
+    "faction": "Way of Progress",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Physical"
+    ],
+    "arti_team_buff": "Armor",
+    "skins": {
+      "Default": "Intelligence",
+      "Barbarian": "Magic attack",
+      "Lunar": "Health",
+      "Romantic": "Dodge"
+    }
+  },
+  {
+    "name": "Jhu",
+    "role": [
+      "Marksman"
+    ],
+    "faction": "Way of Nature",
+    "main_stat": "Strength",
+    "attack_type": [
+      "Physical"
+    ],
+    "arti_team_buff": "Crit hit chance",
+    "skins": {
+      "Default": "Strength",
+      "Winter": "Armor penetration",
+      "Champion&#039;s": "Magic defense",
+      "Solar": "Crit hit chance",
+      "Masquerade": "Physical attack"
+    }
+  },
+  {
+    "name": "Jorgen",
+    "role": [
+      "Control",
+      "Support"
+    ],
+    "faction": "Way of Chaos",
+    "main_stat": "Strength",
+    "attack_type": [
+      "Magic"
+    ],
+    "arti_team_buff": "Magic attack",
+    "skins": {
+      "Default": "Strength",
+      "Champion&#039;s": "Health",
+      "Devil": "Magic defense",
+      "Winter": "Magic attack"
+    }
+  },
+  {
+    "name": "Judge",
+    "role": [
+      "Mage",
+      "Support"
+    ],
+    "faction": "Way of Progress",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Magic"
+    ],
+    "arti_team_buff": "Magic attack",
+    "skins": {
+      "Default": "Intelligence",
+      "Mechanical": "Magic attack",
+      "Champion&#039;s": "Health",
+      "Lunar": "Magic attack",
+      "Masquerade": "Magic defense"
+    }
+  },
+  {
+    "name": "K'arkh",
+    "role": [
+      "Warrior"
+    ],
+    "faction": "Way of Eternity",
+    "main_stat": "Agility",
+    "attack_type": [
+      "Physical"
+    ],
+    "arti_team_buff": "Physical attack",
+    "skins": {
+      "Default": "Agility",
+      "Stellar": "Armor penetration",
+      "Devil": "Armor"
+    }
+  },
+  {
+    "name": "Kai",
+    "role": [
+      "Mage"
+    ],
+    "faction": "Way of Nature",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Magic",
+      "Pure"
+    ],
+    "arti_team_buff": "Magic attack",
+    "skins": {
+      "Default": "Intelligence",
+      "Winter": "Magic attack",
+      "Champion&#039;s": "Health",
+      "Solar": "Magic penetration"
+    }
+  },
+  {
+    "name": "Keira",
+    "role": [
+      "Marksman"
+    ],
+    "faction": "Way of Eternity",
+    "main_stat": "Agility",
+    "attack_type": [
+      "Physical",
+      "Pure"
+    ],
+    "arti_team_buff": "Physical attack",
+    "skins": {
+      "Default": "Agility",
+      "Blooming": "Physical attack",
+      "Winter": "Armor penetration",
+      "Devil": "Magic defense"
+    }
+  },
+  {
+    "name": "Krista",
+    "role": [
+      "Mage"
+    ],
+    "faction": "Way of Chaos",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Magic"
+    ],
+    "arti_team_buff": "Magic attack",
+    "skins": {
+      "Default": "Intelligence",
+      "Masquerade": "Magic attack",
+      "Devil": "Armor",
+      "Cybernetic": "Health"
+    }
+  },
+  {
+    "name": "Lars",
+    "role": [
+      "Mage",
+      "Control"
+    ],
+    "faction": "Way of Chaos",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Magic"
+    ],
+    "arti_team_buff": "Magic penetration",
+    "skins": {
+      "Default": "Intelligence",
+      "Masquerade": "Magic attack",
+      "Devil": "Magic penetration",
+      "Cybernetic": "Armor"
+    }
+  },
+  {
+    "name": "Lian",
+    "role": [
+      "Mage",
+      "Control"
+    ],
+    "faction": "Way of Mystery",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Magic",
+      "Pure"
+    ],
+    "arti_team_buff": "Magic attack",
+    "skins": {
+      "Default": "Intelligence",
+      "Romantic": "Magic attack",
+      "Solar": "Armor",
+      "Devil": "Magic defense",
+      "Beach": "Health"
+    }
+  },
+  {
+    "name": "Lilith",
+    "role": [
+      "Mage",
+      "Marksman"
+    ],
+    "faction": "Way of Chaos",
+    "main_stat": "Strength",
+    "attack_type": [
+      "Magic"
+    ],
+    "arti_team_buff": "Magic penetration",
+    "skins": {
+      "Default": "Strength",
+      "Predator": "Magic attack",
+      "Stellar": "Armor",
+      "Winter": "Health",
+      "Devil": "Magic penetration"
+    }
+  },
+  {
+    "name": "Luther",
+    "role": [
+      "Tank",
+      "Control"
+    ],
+    "faction": "Way of Honor",
+    "main_stat": "Strength",
+    "attack_type": [
+      "Physical"
+    ],
+    "arti_team_buff": "Armor",
+    "skins": {
+      "Default": "Strength",
+      "Stellar": "Physical attack",
+      "Angel": "Armor",
+      "Cybernetic": "Health",
+      "Winter": "Magic defense"
+    }
+  },
+  {
+    "name": "Markus",
+    "role": [
+      "Healer",
+      "Support"
+    ],
+    "faction": "Way of Honor",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Magic"
+    ],
+    "arti_team_buff": "Magic defense",
+    "skins": {
+      "Default": "Intelligence",
+      "Nordic": "Health",
+      "Barbarian": "Armor",
+      "Winter": "Magic attack"
+    }
+  },
+  {
+    "name": "Martha",
+    "role": [
+      "Support",
+      "Tank"
+    ],
+    "faction": "Way of Mystery",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Physical"
+    ],
+    "arti_team_buff": "Armor",
+    "skins": {
+      "Default": "Intelligence",
+      "Winter": "Magic attack",
+      "Solar": "Magic defense",
+      "Masquerade": "Health"
+    }
+  },
+  {
+    "name": "Maya",
+    "role": [
+      "Healer",
+      "Mage"
+    ],
+    "faction": "Way of Mystery",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Pure"
+    ],
+    "arti_team_buff": "Magic defense",
+    "skins": {
+      "Default": "Intelligence",
+      "Champion&#039;s": "Magic attack",
+      "Winter": "Magic attack",
+      "Romantic": "Health"
+    }
+  },
+  {
+    "name": "Mojo",
+    "role": [
+      "Mage",
+      "Support"
+    ],
+    "faction": "Way of Nature",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Magic"
+    ],
+    "arti_team_buff": "Magic penetration",
+    "skins": {
+      "Default": "Intelligence",
+      "Winter": "Magic attack",
+      "Cybernetic": "Magic attack",
+      "Lunar": "Health"
+    }
+  },
+  {
+    "name": "Morrigan",
+    "role": [
+      "Healer",
+      "Support"
+    ],
+    "faction": "Way of Eternity",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Physical"
+    ],
+    "arti_team_buff": "Armor penetration",
+    "skins": {
+      "Default": "Intelligence",
+      "Devil": "Health"
+    }
+  },
+  {
+    "name": "Mushy and Shroom",
+    "role": [
+      "Mage"
+    ],
+    "faction": "Way of Nature",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Magic"
+    ],
+    "arti_team_buff": "Armor",
+    "skins": {
+      "Default": "Intelligence"
+    }
+  },
+  {
+    "name": "Nebula",
+    "role": [
+      "Support"
+    ],
+    "faction": "Way of Progress",
+    "main_stat": "Agility",
+    "attack_type": [
+      "Physical"
+    ],
+    "arti_team_buff": "Physical attack",
+    "skins": {
+      "Default": "Agility",
+      "Romantic": "Physical attack",
+      "Winter": "Physical attack",
+      "Spring": "Dodge"
+    }
+  },
+  {
+    "name": "Orion",
+    "role": [
+      "Mage"
+    ],
+    "faction": "Way of Progress",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Magic"
+    ],
+    "arti_team_buff": "Magic penetration",
+    "skins": {
+      "Default": "Intelligence",
+      "Mechanical": "Magic attack",
+      "Cybernetic": "Magic defense",
+      "Romantic": "Armor",
+      "Winter": "Magic attack"
+    }
+  },
+  {
+    "name": "Peppy",
+    "role": [
+      "Mage",
+      "Support"
+    ],
+    "faction": "Way of Chaos",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Magic"
+    ],
+    "arti_team_buff": "Magic defense",
+    "skins": {
+      "Default": "Intelligence",
+      "Sweettooth": "Magic attack",
+      "Champion&#039;s": "Health",
+      "Lunar": "Magic penetration"
+    }
+  },
+  {
+    "name": "Phobos",
+    "role": [
+      "Mage",
+      "Control"
+    ],
+    "faction": "Way of Eternity",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Magic"
+    ],
+    "arti_team_buff": "Magic defense",
+    "skins": {
+      "Default": "Intelligence",
+      "Illusionist": "Magic attack",
+      "Stellar": "Magic penetration",
+      "Devil": "Magic defense"
+    }
+  },
+  {
+    "name": "Qing Mao",
+    "role": [
+      "Warrior"
+    ],
+    "faction": "Way of Honor",
+    "main_stat": "Agility",
+    "attack_type": [
+      "Physical",
+      "Pure"
+    ],
+    "arti_team_buff": "Armor penetration",
+    "skins": {
+      "Default": "Agility",
+      "Phoenix": "Dodge",
+      "Spring": "Physical attack",
+      "Masquerade": "Armor penetration"
+    }
+  },
+  {
+    "name": "Rufus",
+    "role": [
+      "Tank",
+      "Support"
+    ],
+    "faction": "Way of Mystery",
+    "main_stat": "Strength",
+    "attack_type": [
+      "Physical",
+      "Pure"
+    ],
+    "arti_team_buff": "Armor",
+    "skins": {
+      "Default": "Strength",
+      "Barbarian": "Magic attack",
+      "Angel": "Health",
+      "Winter": "Health"
+    }
+  },
+  {
+    "name": "Satori",
+    "role": [
+      "Mage"
+    ],
+    "faction": "Way of Mystery",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Magic"
+    ],
+    "arti_team_buff": "Magic attack",
+    "skins": {
+      "Default": "Intelligence",
+      "Cybernetic": "Armor",
+      "Dark": "Magic attack",
+      "Celestial": "Magic defense"
+    }
+  },
+  {
+    "name": "Sebastian",
+    "role": [
+      "Support"
+    ],
+    "faction": "Way of Progress",
+    "main_stat": "Agility",
+    "attack_type": [
+      "Physical",
+      "Pure"
+    ],
+    "arti_team_buff": "Physical attack",
+    "skins": {
+      "Default": "Agility",
+      "Romantic": "Crit hit chance",
+      "Devil": "Magic defense"
+    }
+  },
+  {
+    "name": "Thea",
+    "role": [
+      "Healer"
+    ],
+    "faction": "Way of Nature",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Physical",
+      "Magic"
+    ],
+    "arti_team_buff": "Magic defense",
+    "skins": {
+      "Default": "Intelligence",
+      "Angel": "Magic attack",
+      "Champion&#039;s": "Magic attack",
+      "Winter": "Armor",
+      "Masquerade": "Health"
+    }
+  },
+  {
+    "name": "Tristan",
+    "role": [
+      "Warrior"
+    ],
+    "faction": "Way of Honor",
+    "main_stat": "Strength",
+    "attack_type": [
+      "Physical"
+    ],
+    "arti_team_buff": "Armor penetration",
+    "skins": {
+      "Default": "Strength",
+      "Solar": "Physical attack",
+      "Masquerade": "Magic defense"
+    }
+  },
+  {
+    "name": "Xe'Sha",
+    "role": [
+      "Mage",
+      "Support"
+    ],
+    "faction": "Way of Chaos",
+    "main_stat": "Intelligence",
+    "attack_type": [
+      "Magic"
+    ],
+    "arti_team_buff": "Magic attack",
+    "skins": {
+      "Default": "Intelligence"
+    }
+  },
+  {
+    "name": "Yasmine",
+    "role": [
+      "Warrior"
+    ],
+    "faction": "Way of Nature",
+    "main_stat": "Agility",
+    "attack_type": [
+      "Physical",
+      "Pure"
+    ],
+    "arti_team_buff": "Physical attack",
+    "skins": {
+      "Default": "Agility",
+      "Devil": "Crit hit chance",
+      "Romantic": "Physical attack"
+    }
+  },
+  {
+    "name": "Ziri",
+    "role": [
+      "Tank"
+    ],
+    "faction": "Way of Mystery",
+    "main_stat": "Strength",
+    "attack_type": [
+      "Physical"
+    ],
+    "arti_team_buff": "Armor",
+    "skins": {
+      "Default": "Strength",
+      "Cybernetic": "Health",
+      "Champion&#039;s": "Health",
+      "Devil": "Armor",
+      "Spring": "Armor"
+    }
+  }
+]

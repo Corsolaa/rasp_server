@@ -1,0 +1,107 @@
+/*  Setting all the default colors  */
+:root {
+    --yellow: #F8B133;
+    --pink: #D60B51;
+    --width-content: 1350px;
+}
+/*  Settings all the text properties  */
+html {
+    font-family: "Prompt", sans-serif;
+}
+body {
+    color: black;
+}
+.text-pink {
+    color: var(--pink);
+}
+.text-pink:hover {
+    color: var(--pink);
+}
+.text-black {
+    color: black;
+}
+.text-black a {
+    color: black;
+}
+.text-white {
+    color: white;
+}
+.text-white:hover {
+    color: white;
+}
+.text-yellow {
+    color: var(--yellow);
+}
+.text-yellow:hover {
+    color: var(--yellow);
+}
+/*  Setting all the background properties  */
+.back-yellow {
+    background-color: var(--yellow);
+    background-size: cover;
+}
+.back-pink {
+    background-color: var(--pink);
+}
+
+
+/* Align middle perfect */
+@media screen and (min-width: 1000px) {
+    .middle {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Header */
+.header {
+    height: 250px;
+}
+
+/* Remove break at BV. text */
+@media screen and (min-width: 640px) {
+    .break {
+        display: block;
+    }
+}
+@media screen and (max-width: 640px) {
+    .break {
+        display: none;
+    }
+}
+
+
+
+/* Text properties */
+p {
+    font-size: 26px;
+}
+li {
+    font-size: 26px;
+}
+h1 {
+    font-size: 38px !important;
+    font-weight: bold;
+}
+.top-text p {
+    font-size: 30px;
+    font-weight: bold;
+}
+@media screen and (min-width: 1430px) {
+    .top-text p {
+        width: 1351px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.top-text h1 {
+    font-size: 44px;
+}
+
+/* Footer */
+.footer {
+    margin-top: 200px
+;
+    padding-bottom: 3rem;
+}

@@ -1,0 +1,214 @@
+[
+  {
+    "skin_type": "default",
+    "data": [
+      {
+        "level": 5,
+        "skin_stones": 35
+      },
+      {
+        "level": 10,
+        "skin_stones": 55
+      },
+      {
+        "level": 15,
+        "skin_stones": 130
+      },
+      {
+        "level": 20,
+        "skin_stones": 150
+      },
+      {
+        "level": 25,
+        "skin_stones": 345
+      },
+      {
+        "level": 30,
+        "skin_stones": 395
+      },
+      {
+        "level": 35,
+        "skin_stones": 525
+      },
+      {
+        "level": 40,
+        "skin_stones": 580
+      },
+      {
+        "level": 45,
+        "skin_stones": 700
+      },
+      {
+        "level": 50,
+        "skin_stones": 850
+      },
+      {
+        "level": 55,
+        "skin_stones": 1050
+      },
+      {
+        "level": 60,
+        "skin_stones": 1350
+      }
+    ]
+  },
+  {
+    "skin_type": "champion",
+    "data": [
+      {
+        "level": 5,
+        "skin_stones": 70
+      },
+      {
+        "level": 10,
+        "skin_stones": 115
+      },
+      {
+        "level": 15,
+        "skin_stones": 275
+      },
+      {
+        "level": 20,
+        "skin_stones": 320
+      },
+      {
+        "level": 25,
+        "skin_stones": 750
+      },
+      {
+        "level": 30,
+        "skin_stones": 850
+      },
+      {
+        "level": 35,
+        "skin_stones": 1140
+      },
+      {
+        "level": 40,
+        "skin_stones": 1250
+      },
+      {
+        "level": 45,
+        "skin_stones": 1370
+      },
+      {
+        "level": 50,
+        "skin_stones": 1475
+      },
+      {
+        "level": 55,
+        "skin_stones": 1575
+      },
+      {
+        "level": 60,
+        "skin_stones": 1690
+      }
+    ]
+  },
+  {
+    "skin_type": "winter",
+    "data": [
+      {
+        "level": 5,
+        "skin_stones": 78
+      },
+      {
+        "level": 10,
+        "skin_stones": 91
+      },
+      {
+        "level": 15,
+        "skin_stones": 282
+      },
+      {
+        "level": 20,
+        "skin_stones": 323
+      },
+      {
+        "level": 25,
+        "skin_stones": 732
+      },
+      {
+        "level": 30,
+        "skin_stones": 837
+      },
+      {
+        "level": 35,
+        "skin_stones": 1108
+      },
+      {
+        "level": 40,
+        "skin_stones": 1235
+      },
+      {
+        "level": 45,
+        "skin_stones": 1330
+      },
+      {
+        "level": 50,
+        "skin_stones": 1447
+      },
+      {
+        "level": 55,
+        "skin_stones": 1559
+      },
+      {
+        "level": 60,
+        "skin_stones": 1676
+      }
+    ]
+  },
+  {
+    "skin_type": "other",
+    "data": [
+      {
+        "level": 5,
+        "skin_stones": 65
+      },
+      {
+        "level": 10,
+        "skin_stones": 105
+      },
+      {
+        "level": 15,
+        "skin_stones": 255
+      },
+      {
+        "level": 20,
+        "skin_stones": 300
+      },
+      {
+        "level": 25,
+        "skin_stones": 700
+      },
+      {
+        "level": 30,
+        "skin_stones": 790
+      },
+      {
+        "level": 35,
+        "skin_stones": 1050
+      },
+      {
+        "level": 40,
+        "skin_stones": 1160
+      },
+      {
+        "level": 45,
+        "skin_stones": 1270
+      },
+      {
+        "level": 50,
+        "skin_stones": 1370
+      },
+      {
+        "level": 55,
+        "skin_stones": 1460
+      },
+      {
+        "level": 60,
+        "skin_stones": 1570
+      }
+    ]
+  }
+]

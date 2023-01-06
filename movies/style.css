@@ -1,0 +1,137 @@
+body{
+    /*styling*/
+    background-color: #1d2025;
+    margin: 0;
+    padding: 0;
+
+    /*font*/
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #d2d5d8;
+}
+
+
+#header{
+    height: 80px;
+}
+
+#headertxt{
+    /*position*/
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+    float: left;
+
+    /*font*/
+    font-size: 55px;
+    font-weight: bold;
+}
+
+#movieInput{
+    margin-top: 25px;
+    margin-right: 10px;
+    float: right;
+}
+
+#formInput{
+    background-color: #11c5b3;
+    border: 2px solid #1b3638;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    width: 220px;
+    height: 20px;
+    padding: 8px;
+    text-align: center;
+}
+
+#formInput::placeholder{
+    font-size: 25px;
+    color: #141c20;
+}
+
+#formInput:focus{
+    outline: 2px solid #efc7a3;
+}
+
+
+#formSubmit{
+    font-size: 25px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    background-color: #333c45;
+    text-decoration: none;
+    color: #cbcfd2;
+    height: 40px;
+}
+
+#pList{
+    /*position*/
+    margin-top: 10px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#inside{
+    /*position*/
+    padding: 20px;
+    paddding-top: 10px;
+}
+
+#content{
+    /*position*/
+    width: 1000px;
+    margin: auto;
+}
+
+.list{
+    /*position*/
+    margin-top: -1px;
+    margin-right: -1px;
+    display: block;
+    padding: 12px;
+
+    font-size: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+
+    background-color: #333c45;
+
+    text-decoration: none;
+    color: #cbcfd2;
+
+}
+
+#input{
+    /*background settings of the search icon*/
+    background-image: url("search-icon.png");
+    background-size: 35px;
+    background-color: #11c5b3;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+
+    /*font settings*/
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+
+    /*position settings*/
+    width: calc(100% - 4px);
+    height: 50px;
+
+    /*box model*/
+    border: 2px solid #1b3638;
+    border-radius: 25px;
+    padding: 2px 0px 2px ;
+}
+
+#input::placeholder{
+    font-size: 25px;
+    color: #141c20;
+}
+
+#input:focus{
+    outline: 2px solid #efc7a3;
+}
