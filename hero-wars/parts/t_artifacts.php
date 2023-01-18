@@ -3,14 +3,14 @@
     <div class='slider'>
         <p>Current artifact level.</p>
         <label class="slider_range">
-            <input type="range" min='1' max='100' value="0" step='1'/>
+            <input type="range" min='1' max='120' value="0" step='1'/>
             <span class="slider_level">level 1</span>
         </label>
     </div>
     <div class='slider'>
         <p>The artifact level that you want</p>
         <label class="slider1_range">
-            <input type="range" min='1' max='100' value="0" step='1'/>
+            <input type="range" min='1' max='120' value="0" step='1'/>
             <span class="slider1_level">level 1</span>
         </label>
     </div>
