@@ -4,7 +4,7 @@ const loader = document.querySelector(".loader");
 const grab_ball = play_screen.querySelector(".grab_ball button");
 const balls = play_screen.querySelector(".balls");
 
-const ball_numbers = [1, 73];
+const ball_numbers = [1, 75];
 let ball_rolled = [];
 const ball_colors = ["red", "orange", "pink", "purple", "yellow", "blue", "green", "white", "black"];
 const ball_font_color = ["#FFFFFF", "#0F0A00", "#52000E", "#FFFFFF", "#9c00ff", "#FFFFFF", "#FFFFFF", "#000000",
