@@ -1,7 +1,7 @@
 const start_screen = document.querySelector(".start_screen");
 const play_screen = document.querySelector(".play_screen");
 const loader = document.querySelector(".loader");
-const grab_ball = play_screen.querySelector(".grab_ball");
+const grab_ball = play_screen.querySelector(".grab_ball button");
 const balls = play_screen.querySelector(".balls");
 
 const ball_numbers = [1, 73];
@@ -16,14 +16,27 @@ start_screen.addEventListener("click", () => {
 });
 
 grab_ball.addEventListener("click", () => {
+    changeBall();
+});
+
+function createBall() {
     const ball = document.createElement("div");
     ball.setAttribute("class", "ball display_center");
-    ball.innerHTML = "<div class='inside'><p>"+getBallNumber().toString()+"</p></div>"
+    ball.innerHTML = "<div class='inside'><p>X</p></div>"
+    ball.style.background = "darkgray";
+    ball.style.color = "black";
+    balls.appendChild(ball);
+}
+
+function changeBall() {
+    const ball_array = balls.querySelectorAll(".ball");
     let index = Math.floor(Math.random()*ball_colors.length);
+    let ball_number = getBallNumber();
+    let ball = ball_array[ball_number - 1];
+    ball.innerText = ball_number;
     ball.style.background = ball_colors[index];
     ball.style.color = ball_font_color[index];
-    balls.appendChild(ball);
-});
+}
 
 function getBallNumber() {
     let min = ball_numbers[0];
@@ -39,3 +52,13 @@ function getBallNumber() {
         }
     }
 }
+
+function loadBalls() {
+    for (let i = 0; i<ball_numbers[1]; i++) {
+        createBall();
+    }
+}
+
+window.addEventListener('load', function () {
+    loadBalls();
+})

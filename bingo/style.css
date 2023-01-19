@@ -23,7 +23,6 @@
 }
 
 body {
-    overflow: hidden;
     min-height: 100vh;
     color: var(--text-color);
     font-family: Sans-serif, serif;
@@ -64,9 +63,8 @@ a {
 }
 
 .play_screen {
-    background-color: gray;
     max-width: 1500px;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .balls {
@@ -74,8 +72,8 @@ a {
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
-    justify-content: start;
+    gap: 17px;
+    justify-content: center;
 }
 
 .ball {
@@ -93,9 +91,16 @@ a {
 }
 
 .grab_ball {
-    position: absolute;
-    top: 50%;
-    left: calc(50% - 90px);
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.grab_ball button {
+    font-size: 5em;
+}
+
+button{
     align-items: center;
     appearance: none;
     background-color: #FCFCFD;
@@ -107,7 +112,6 @@ a {
     cursor: pointer;
     display: inline-flex;
     font-family: "JetBrains Mono",monospace;
-    height: 48px;
     justify-content: center;
     line-height: 1;
     list-style: none;
@@ -125,7 +129,7 @@ a {
     font-size: 18px;
 }
 
-.grab_ball:active {
+button:active {
     box-shadow: #D6D6E7 0 3px 7px inset;
     transform: translateY(2px);
 }
