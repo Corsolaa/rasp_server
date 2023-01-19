@@ -7,7 +7,7 @@ const balls = play_screen.querySelector(".balls");
 const ball_numbers = [1, 73];
 let ball_rolled = [];
 const ball_colors = ["red", "orange", "pink", "purple", "yellow", "blue", "green", "white", "black"];
-const ball_font_color = ["#FFFFFF", "#0F0A00", "#52000E", "#FFFFFF", "#AD0000", "#FFFFFF", "#FFFFFF", "#000000",
+const ball_font_color = ["#FFFFFF", "#0F0A00", "#52000E", "#FFFFFF", "#9c00ff", "#FFFFFF", "#FFFFFF", "#000000",
     "#FFFFFF"];
 
 start_screen.addEventListener("click", () => {
@@ -16,7 +16,12 @@ start_screen.addEventListener("click", () => {
 });
 
 grab_ball.addEventListener("click", () => {
+    grab_ball.disabled = true;
+    setTimeout(() => {
+        grab_ball.disabled = false;
+    }, 1500);
     changeBall();
+
 });
 
 function createBall() {
@@ -36,6 +41,14 @@ function changeBall() {
     ball.innerText = ball_number;
     ball.style.background = ball_colors[index];
     ball.style.color = ball_font_color[index];
+    if (ball_colors[index] !== "white") {
+        ball.style.border = "2px solid " + ball_font_color[index];
+    }
+    let ball_text = ball_number;
+    if (ball_number < 10) {
+        ball_text = "&nbsp;" + ball_number
+    }
+    grab_ball.innerHTML = "Pick ball - " + ball_text;
 }
 
 function getBallNumber() {
