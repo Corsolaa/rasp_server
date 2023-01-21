@@ -29,8 +29,12 @@ img, picture, svg, video {
 
 body {
     font-family: 'Ubuntu', sans-serif;
-    background: url("./website-background.png") no-repeat center;
-    background-size: cover;
+    background-image: url("./endless-constellation.svg");
+    background-size: auto;
+    background-color: #330033;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: scroll;
     color: white;
 }
 
@@ -90,6 +94,7 @@ body {
 .table th {
     text-align: left;
 }
+
 .table tbody {
     width: 1000px;
 }
