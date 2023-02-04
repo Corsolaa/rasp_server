@@ -71,6 +71,8 @@ function cycleButtons(question) {
     button1.innerText = question.button1;
     button2.innerText = question.button2;
     popup.style.width = question.width;
+    popup.style.top = "165px";
+    popup.style.left = "580px";
 }
 
 function clickButton1() {
