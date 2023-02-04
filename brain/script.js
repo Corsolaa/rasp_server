@@ -18,7 +18,7 @@ let questions = [
     },
     {
         image: "info",
-        text: "Can I touch your ass?",
+        text: "Will you be my valentine?",
         button1: "Yes",
         button2: "No?",
         width: "280px"
