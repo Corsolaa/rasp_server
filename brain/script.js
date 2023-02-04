@@ -1,4 +1,5 @@
-const popup = document.querySelector(".popup");
+const content = document.querySelector(".content");
+const popup = content.querySelector(".popup");
 const button1 = popup.querySelector(".button1");
 const button2 = popup.querySelector(".button2");
 const img_warning = popup.querySelector(".img_warning");
@@ -86,10 +87,16 @@ function clickButton1() {
         case 2:
             cycleButtons(questions[4]);
             counter = 15;
+            setTimeout(function(){
+                content.style.backgroundImage = 'url("valentine.png")';
+            }, 8000);
             break;
         case 3:
             cycleButtons(questions[4]);
             counter = 15;
+            setTimeout(function(){
+                content.style.backgroundImage = 'url("valentine.png")';
+            }, 8000);
             break;
         case 15:
             console.log("cheating slut...");
@@ -117,6 +124,9 @@ function clickButton2() {
             if (counter_ignore === 4) {
                 cycleButtons(questions[3]);
                 counter = 15;
+                setTimeout(function(){
+                    content.style.backgroundImage = 'url("valentine.png")';
+                }, 8000);
             }
             counter_ignore += 1;
             break;
