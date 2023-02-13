@@ -1,0 +1,44 @@
+[
+  {
+    "name": "service_desk",
+    "questions": [
+      {
+        "question": "Beoordeeld uw organisatie de ondersteuning van ICT met een 8 of hoger?",
+        "points": 25
+      },
+      {
+        "question": "Ik evalueer regelmatig de gebruikersvragen, zodat ik kan sturen op verbetering",
+        "points": 25
+      },
+      {
+        "question": "Ik vind het belangrijker dat mijn eindgebruikers goed geholpen worden, dan dat de telefoon snel wordt opgenomen",
+        "points": 25
+      },
+      {
+        "question": "Ik wil graag dat mijn eindgebruikers altijd en overal kunnen werken",
+        "points": 25
+      }
+    ]
+  },
+  {
+    "name": "business",
+    "questions": [
+      {
+        "question": "Ik controleer met regelmaat mijn back-up- en restoreplannen",
+        "points": 25
+      },
+      {
+        "question": "Ik heb een business continuiteitsplan opgesteld met daarin een duidelijk ICT-component",
+        "points": 25
+      },
+      {
+        "question": "Ik controleer met regelmaat mij business continuiteitsplan",
+        "points": 25
+      },
+      {
+        "question": "Na elke grote organisatie/ict wijziging werk ik het business continuiteitsplan bij",
+        "points": 25
+      }
+    ]
+  }
+]
