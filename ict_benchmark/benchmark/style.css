@@ -1,0 +1,153 @@
+:root {
+    --sec-width: 1500px;
+    --border-radius: 8px;
+    --back-color: #383736;
+    --sec-color: gray;
+    --text-color: white;
+    --color-but1: #A5C9CA;
+    --color-but2: #395B64;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color-scheme: dark;
+}
+
+body {
+    min-height: 100vh;
+    color: var(--text-color);
+    font-family: Sans-serif, serif;
+    background: var(--back-color);
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+
+.vert_center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.remove_a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.overflow_hidden {
+    overflow: hidden;
+}
+
+.content {
+    width: 1000px;
+    color: black;
+}
+
+.row {
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+}
+
+.row div {
+    /*border: red 1px solid;*/
+    /*padding: 0 2px 0 2px;*/
+}
+
+.row div select {
+    width: 100%;
+    height: 100%;
+}
+
+.row div:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row div:nth-child(1) {
+    width: 80%;
+    padding: 7px;
+}
+
+.row div {
+    width: 10%;
+}
+
+.title h2 {
+    color: white;
+    width: 100%;
+    padding: 10px;
+    background-color: red !important;
+}
+
+.row:nth-child(odd) {
+    background-color: #ccc;
+}
+
+.row:nth-child(even) {
+    background-color: #eee;
+}
+
+.points {
+    text-align: right;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.but_submit {
+    margin-top: 10px;
+}
+
+.but_submit button {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(54, 54, 54, 0.8);
+}
+
+.popup .inside {
+    background-color: white;
+    color: black;
+    width: 850px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.popup .inside .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.but_back {
+    padding: 10px;
+    font-weight: bold;
+    font-size:10px;
+}

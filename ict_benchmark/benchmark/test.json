@@ -40,5 +40,38 @@
         "points": 25
       }
     ]
+  },
+  {
+    "name": "service_operations",
+    "questions": [
+      {
+        "question": "Ik beschik over een actueel overzicht van alle software producten die ik in mijn organisatie gebruik",
+        "points": 10
+      },
+      {
+        "question": "Ik weet welke koppelingen mijn kernapplicaties hebben met systemen van derden",
+        "points": 10
+      },
+      {
+        "question": "Ik weet welke informatie mijn applicaties en systemen met elkaar uitwisselen",
+        "points": 10
+      },
+      {
+        "question": "Ik besteed aandacht aan het beheer van data binnen mijn organisatie",
+        "points": 10
+      },
+      {
+        "question": "Ik heb een ICT strategie beschreven en stel deze met regelmaat bij aan de veranderende situatie",
+        "points": 10
+      },
+      {
+        "question": "Ik heb een ICT lifecycle beleid vastgesteld, zowel voor mijn hard- als softwareproducten",
+        "points": 10
+      },
+      {
+        "question": "Ik toets of mijn ICT leverancier oplossingen implementeert op basis van geldende best-practises/normen",
+        "points": 10
+      }
+    ]
   }
 ]

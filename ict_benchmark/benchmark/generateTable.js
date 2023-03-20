@@ -1,4 +1,4 @@
-import questionsJson from "./data.json" assert {type: "json"}
+import questionsJson from "./test.json" assert {type: "json"}
 
 const forms = document.querySelector(".forms");
 const but_submit = document.querySelector(".but_submit");
