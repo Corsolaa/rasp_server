@@ -1,22 +1,18 @@
 [
   {
-    "name": "service_desk",
+    "name": "security",
     "questions": [
       {
-        "question": "Beoordeeld uw organisatie de ondersteuning van ICT met een 8 of hoger?",
-        "points": 25
+        "question": "Ik weet in welke cloud platformen en applicaties van derden mijn medewerkers zakelijke informatie opslaan",
+        "points": 10
       },
       {
-        "question": "Ik evalueer regelmatig de gebruikersvragen, zodat ik kan sturen op verbetering",
-        "points": 25
+        "question": "Ik weet zeker dat mijn systemen voorzien zijn van actuele software versies",
+        "points": 10
       },
       {
-        "question": "Ik vind het belangrijker dat mijn eindgebruikers goed geholpen worden, dan dat de telefoon snel wordt opgenomen",
-        "points": 25
-      },
-      {
-        "question": "Ik wil graag dat mijn eindgebruikers altijd en overal kunnen werken",
-        "points": 25
+        "question": "Ik ben bekend met het Zero-Trust principe",
+        "points": 10
       }
     ]
   },
@@ -42,6 +38,40 @@
     ]
   },
   {
+    "name": "ict_processen",
+    "questions": [
+      {
+        "question": "Ik heb een goed en actueel overzicht van al mijn ICT assets",
+        "points": 10
+      },
+      {
+        "question": "Ik heb een goed werkend in-, uit- en doorstromingsproces voor mijn medewerkers",
+        "points": 10
+      },
+      {
+        "question": "Mijn medewerkers hebben alleen toegang tot informatie, systemen en applicaties die zij voor hun actuele functie nodig hebben",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "name": "service_desk",
+    "questions": [
+      {
+        "question": "Ik beoordeel de ICT ondersteuning binnen de organisatie met een 8 of hoger?",
+        "points": 20
+      },
+      {
+        "question": "Ik evalueer regelmatig de gebruikersvragen, zodat ik kan sturen op verbetering",
+        "points": 20
+      },
+      {
+        "question": "Ik vind het belangrijker dat mijn eindgebruikers goed geholpen worden, dan dat de telefoon snel wordt opgenomen",
+        "points": 20
+      }
+    ]
+  },
+  {
     "name": "service_operations",
     "questions": [
       {
@@ -54,22 +84,6 @@
       },
       {
         "question": "Ik weet welke informatie mijn applicaties en systemen met elkaar uitwisselen",
-        "points": 10
-      },
-      {
-        "question": "Ik besteed aandacht aan het beheer van data binnen mijn organisatie",
-        "points": 10
-      },
-      {
-        "question": "Ik heb een ICT strategie beschreven en stel deze met regelmaat bij aan de veranderende situatie",
-        "points": 10
-      },
-      {
-        "question": "Ik heb een ICT lifecycle beleid vastgesteld, zowel voor mijn hard- als softwareproducten",
-        "points": 10
-      },
-      {
-        "question": "Ik toets of mijn ICT leverancier oplossingen implementeert op basis van geldende best-practises/normen",
         "points": 10
       }
     ]

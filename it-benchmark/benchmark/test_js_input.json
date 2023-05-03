@@ -1,0 +1,19 @@
+[
+  {
+    "name": "service_desk",
+    "questions": [
+      {
+        "question": "Beoordeeld uw organisatie de ondersteuning",
+        "points": "25"
+      },
+      {
+        "question": "Ik vind het belangrijker dat",
+        "points": "25"
+      },
+      {
+        "question": "Ik wil graag dat mijn",
+        "points": "0"
+      }
+    ]
+  }
+]

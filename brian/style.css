@@ -54,7 +54,7 @@ img, picture, svg, video {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("windows_background.png");
+    background: url("windows_background.webp");
     background-size: cover;
     font-family: 'Open Sans', sans-serif;
 }

@@ -2,23 +2,121 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ICT Benchmark👽</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Benchmark</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="../favicon.ico">
     <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="content vert_center">
-    <div class="forms"></div>
-    <button class="but_submit">Submit</button>
+<div id="header" class="header">
+    <a href="../">
+        <img class="header_img" src="../images/it-benchmark-logo.webp" alt="it-benchmark-logo">
+    </a>
 </div>
-<div class="popup hidden">
-    <div class="inside">
-        <div class="header">
-            <h1>Radar diagram</h1>
-            <button class="but_back">X</button>
+<div class="upper_section">
+    <img class="top_image" src="../images/proact-dell-logo.webp" alt="proact_dell_logo">
+    <p class="hidden">Resultaat</p>
+</div>
+<div class="content vert_center">
+    <div class="inleiding">
+        Op basis van jouw antwoorden is een score van 1 tot 4 punten toegekend per onderdeel. Hoe hoger de score, des te
+        verder van het centrum van de radardiagram zal het ijkpunt staan op het desbetreffende deelgebied. <br><br>
+        De onderdelen die onderbelicht zijn, of minder relevant voor jouw organisatie, scoren lager. Het ijkpunt zal dan
+        ook dicht bij het centrum van de radardiagram blijven staan op deze onderdelen.
+    </div>
+    <div class="h_fit_content forms">
+        <p class="page_numb">pagina 1/5</p>
+        <div class="forms_header">
+            <h1></h1>
         </div>
-        <canvas id="myChart"></canvas>
+    </div>
+    <button class="but_submit">NAAR STAP 2 VAN 5</button>
+    <div class="hidden upper_peace">
+        <div class="text_peace">
+            <h1 style="color: var(--color-button);">Wat betekent mijn score</h1>
+            <br>
+            Score – 4 punten <br>
+            Jouw organisatie is ‘on top of its game’. Innovatie en continue willen verbeteren blijft een noodzaak.
+            <br><br>
+
+            Score – 3 punten <br>
+            Er zijn heel duidelijk prioriteiten gesteld, maar wellicht zijn nog niet alle facetten aan bod gekomen. De
+            laatste stappen moeten nog genomen worden.
+            <br><br>
+
+            Score – 2 punten <br>
+            Waarschijnlijk zijn er noodgedwongen keuzes gemaakt waardoor niet alle IT-aspecten evenveel aandacht hebben
+            gekregen. Evalueer om te zien of er een inhaalslag gemaakt kan worden.
+            <br><br>
+
+            Score – 1 punt <br>
+            Er valt nog een boel te verbeteren, maar dit kan ook zijn omdat het niet relevant is voor jouw organisatie.
+            Is het wel relevant? Maak dan een stappenplan voor verbetering.
+        </div>
+        <div class="diagram">
+        </div>
+    </div>
+    <div class="lower_peace">
+        <div class="end-form">
+            <div class="column">
+                <label for="email">
+                    Email<a class="important"> *</a>
+                </label>
+                <input id="email" type="text">
+            </div>
+            <div class="column next-to">
+                <div class="peace">
+                    <label for="first_name">
+                        Voornaam
+                    </label>
+                    <input id="first_name" type="text">
+                </div>
+                <div class="peace">
+                    <label for="last_name">
+                        Achternaam
+                    </label>
+                    <input id="last_name" type="text">
+                </div>
+            </div>
+            <div class="column">
+                <label for="company_name">
+                    Bedrijfsnaam
+                </label>
+                <input id="company_name" type="text">
+            </div>
+            <p style="font-size: 0.8em;margin-bottom: 15px;"><a class="important">* </a>moet ingevuld worden</p>
+            <button>Versturen</button>
+        </div>
+        <div class="hidden information">
+            <p>Het benchmark onderzoek geeft natuurlijk slechts een indicatie waar de nadruk ligt in jouw ICT omgeving
+                en
+                dus ook waar wellicht meer aandacht aan besteed zou mogen worden. Het heeft geenszins de pretentie een
+                volledige analyse te geven van jouw ICT omgeving. Iedere organisatie heeft tenslotte z’n eigen dynamiek
+                en
+                prioriteiten.
+                <br><br>
+                Wil je jouw resultaten vergelijken met alle andere respondenten, laat dan hier je gegevens achter en
+                ontvang
+                het volledig uitgewerkte rapport na afloop van het onderzoek. Niet alleen krijg je dan inzicht in de
+                focus
+                van andere organisaties in Nederland maar ook ontvang je advies over de stappen die je kunt ondernemen
+                om
+                jouw ICT-omgeving te optimaliseren.</p>
+        </div>
+    </div>
+
+</div>
+<div class="footer">
+    <div class="copyright">
+        <p>COPYRIGHT 2023 PROACT</p>
+    </div>
+    <div class="right_logo">
+        <img src="../images/proact-dell-logo.webp" alt="proact_dell_logo">
     </div>
 </div>
 <script type="module" src="generateTable.js"></script>
