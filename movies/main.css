@@ -1,0 +1,154 @@
+:root {
+    --backgroundColor: white;
+    --textColor: black;
+    --border-color: black;
+    --login-background: white;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+body {
+    min-height: 100vh;
+    color: var(--textColor);
+    font-family: sans-serif;
+    background: var(--backgroundColor);
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+
+label,
+button,
+select,
+summary,
+[type=radio],
+[type=submit],
+[type=checkbox] {
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    max-width: 800px;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+}
+
+.header .top {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.header .top h1 {
+    display: flex;
+    margin-top: auto;
+}
+
+.submit_prompt {
+    display: flex;
+    width: 300px;
+}
+
+.submit_prompt .submit_button {
+    width: 40%;
+
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 10px;
+
+    cursor: pointer;
+    background: white;
+}
+
+
+.submit_prompt label{
+    display: inline;
+    position: relative;
+
+    margin-top: 15px;
+
+    width: 80%;
+}
+
+.submit_prompt input {
+    width: 100%;
+
+    border: 2px var(--border-color) solid;
+    border-radius: 10px;
+
+    padding: 10px 10px 10px 17px;
+}
+
+.submit_prompt input:focus {
+    outline: 1px solid var(--border-color);
+}
+
+.submit_prompt span {
+    position: absolute;
+    top: -10px;
+    left: 14px;
+
+    white-space: nowrap;
+
+    font-style: italic;
+    font-weight: bold;
+
+    background: var(--login-background);
+    padding: 0 5px;
+}
+
+.search {
+    margin-top: 10px;
+}
+
+.search label {
+    display: flex;
+    position: relative;
+}
+
+.search input {
+    width: 100%;
+
+    border: 2px var(--border-color) solid;
+    border-radius: 10px;
+
+    padding: 10px 10px 10px 30px;
+}
+
+.search input:focus {
+    outline: 1px solid var(--border-color);
+}
+
+.search img {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 30px;
+    height: auto;
+}
