@@ -2,7 +2,7 @@
 //$json = file_get_contents("movies_data.json");
 //$movie_data = json_decode($json, true);
 //var_dump($movie_data);
-//?>
+?>
 
 <!doctype html>
 <html lang="en">
@@ -23,23 +23,19 @@
     <div class="header">
         <div class="top">
             <h1>Films gekeken</h1>
-            <form method="POST" class="submit_prompt">
-                <label for="movie_name">
-                    <input type="text" id="movie_name">
-                    <span>Movie name</span>
-                </label>
-                <input type="submit" class="submit_button" value="uploaden">
-            </form>
+            <a href="upload.php">Film Bijvoegen</a>
         </div>
         <div class="search">
             <label for="search_movie">
                 <input type="text" id="search_movie">
-                <img src="search-icon.png" alt="search-icon">
+                <img src="search-icon.webp" alt="search-icon">
             </label>
         </div>
     </div>
     <div class="movie_display">
-        MOVIES
+        <div class="movie">
+            Wreck it Ralph
+        </div>
     </div>
 </div>
 </body>

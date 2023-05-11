@@ -69,58 +69,64 @@ summary,
     margin-top: auto;
 }
 
-.submit_prompt {
-    display: flex;
-    width: 300px;
+.header a {
+    width: 250px;
+    border: 2px black solid;
+    color: black;
 }
 
-.submit_prompt .submit_button {
-    width: 40%;
+/*.submit_prompt {*/
+/*    display: flex;*/
+/*    width: 300px;*/
+/*}*/
 
-    margin-top: 15px;
-    margin-left: 10px;
-    padding: 10px;
+/*.submit_prompt .submit_button {*/
+/*    width: 40%;*/
 
-    cursor: pointer;
-    background: white;
-}
+/*    margin-top: 15px;*/
+/*    margin-left: 10px;*/
+/*    padding: 10px;*/
+
+/*    cursor: pointer;*/
+/*    background: white;*/
+/*}*/
 
 
-.submit_prompt label{
-    display: inline;
-    position: relative;
+/*.submit_prompt label{*/
+/*    display: inline;*/
+/*    position: relative;*/
 
-    margin-top: 15px;
+/*    margin-top: 15px;*/
 
-    width: 80%;
-}
+/*    width: 80%;*/
+/*}*/
 
-.submit_prompt input {
-    width: 100%;
+/*.submit_prompt input {*/
+/*    width: 100%;*/
 
-    border: 2px var(--border-color) solid;
-    border-radius: 10px;
+/*    border: 2px var(--border-color) solid;*/
+/*    border-radius: 10px;*/
 
-    padding: 10px 10px 10px 17px;
-}
+/*    padding: 10px 10px 10px 17px;*/
+/*}*/
 
-.submit_prompt input:focus {
-    outline: 1px solid var(--border-color);
-}
+/*.submit_prompt input:focus {*/
+/*    outline: 1px solid var(--border-color);*/
+/*}*/
 
-.submit_prompt span {
-    position: absolute;
-    top: -10px;
-    left: 14px;
+/*.submit_prompt span {*/
+/*    position: absolute;*/
+/*    top: -10px;*/
+/*    left: 14px;*/
 
-    white-space: nowrap;
+/*    white-space: nowrap;*/
 
-    font-style: italic;
-    font-weight: bold;
+/*    font-style: italic;*/
+/*    font-weight: bold;*/
 
-    background: var(--login-background);
-    padding: 0 5px;
-}
+/*    background: var(--login-background);*/
+/*    padding: 0 5px;*/
+/*}*/
 
 .search {
     margin-top: 10px;
@@ -134,10 +140,12 @@ summary,
 .search input {
     width: 100%;
 
+    font-size: 1.3rem;
+
     border: 2px var(--border-color) solid;
     border-radius: 10px;
 
-    padding: 10px 10px 10px 30px;
+    padding: 15px 10px 15px 50px;
 }
 
 .search input:focus {
@@ -146,9 +154,14 @@ summary,
 
 .search img {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 25%;
+    left: 10px;
 
     width: 30px;
     height: auto;
+}
+
+.movie {
+    width: 50%;
+    padding: 25px;
 }
